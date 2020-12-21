@@ -1,5 +1,5 @@
-# Fish Behaviour
-FishBiv is an application that is used to:
+# FishBiv
+FishBiv is short for Fish Behaviour, and it is an application that is used to:
 
 •	Recognize the locomotor of zebra fish larvae after being exposed to neurotoxic substances using Convolution Neural Network (CNN).
 •	Understand the molecular mechanisms underlying Parkinson’s Disease (PD) by generating animal models of PD using zebrafish.
