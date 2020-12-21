@@ -6,3 +6,6 @@ Objectives:
 - To develop an algorithm for locomotor activity recognition of zebrafish larvae using CNN.
 - To validate the proposed algorithm on the recognition of the locomotor activity of the zebrafish larvae.
 - To evaluate the performance of reginition by the experts.
+
+Example of researched studies:
+https://www.noldus.com/applications/zebrafish-larvae-activity
