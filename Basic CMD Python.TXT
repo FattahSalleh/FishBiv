@@ -1,0 +1,15 @@
+conda search python
+
+conda install python=3.x
+
+conda create --name xxx python=3.x
+
+conda activate (name)
+
+conda deactivate
+
+cd desktop
+
+cd *to file location*
+
+python xxx.py
