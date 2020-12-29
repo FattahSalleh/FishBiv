@@ -3,6 +3,7 @@ import cv2, time
 #Initialize cascades
 face_cascade = cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascades/haarcascade_eye.xml')
+smile_cascade = cv2.CascadeClassifier('haarcascades/haarcascade_smile.xml')
 
 #1. Create an object. Zero for external camera.
 video = cv2.VideoCapture(0, cv2.CAP_DSHOW)
@@ -37,6 +38,13 @@ while True:
         for (ex, ey, ew, eh) in eyes:
             cv2.rectangle(roi_colour, (ex, ey), (ex + ew, ey + eh), (0, 255, 0), 2)
 
+        # rois_gray = gray[y:y+h, x:x+w]
+        # rois_colour = frame[y:h, x:x+w]
+
+        # smiles = smile_cascade.detectMultiScale(rois_gray)
+
+        # for (sx, sy, sw, sh) in smiles:
+        #     cv2.rectangle(rois_colour, (sx, sy), (sx + sw, sy + sh), (0, 0, 255), 2)
     
 
     #4. Show the frame!
