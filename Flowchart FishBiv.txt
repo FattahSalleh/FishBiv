@@ -1,0 +1,17 @@
+Start > 
+Initialize face detection model >
+Initialize image/video >
+
+While True:
+ Read image/video > 
+ Convert image/video to grayscale (sbb opencv nk detect object pakai grayscale) > 
+ Start detection model > 
+ Convert back image/video to colour >
+ Display processed image/video with detection model on a frame>
+
+If 'q' key pressed:
+ break loop
+
+Shutdown video >
+Destroy all frame >
+End
